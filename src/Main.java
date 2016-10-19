@@ -1,7 +1,6 @@
 public class Main {
 
     public static void main(String[] args) {
-//        System.out.println("Hello World!");
         String[] publishedWorks = {"Monster Hunter International" , "Monster Hunter Vendetta"};
         Author author = new Author("Larry Correia", publishedWorks, true, 40);
 

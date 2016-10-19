@@ -25,7 +25,7 @@ public class Book {
 
     public void setLengthPgs(int lengthPgs){
         if(lengthPgs > 0) {
-            this.lengthPgs = lengthPgs; //greater than 0
+            this.lengthPgs = lengthPgs;
         }
     }
 
@@ -35,7 +35,7 @@ public class Book {
 
     public void setPubDate(String pubDate){
         if(pubDate.contains("/")) {
-            this.pubDate = pubDate; //contais slashes
+            this.pubDate = pubDate;
         }
     }
 

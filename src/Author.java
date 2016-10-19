@@ -5,7 +5,7 @@
 public class Author {
 
     private String authorName;
-    private String[] publishedWorks; //= {"Monster Hunter International" , "Monster Hunter Vendetta"};
+    private String[] publishedWorks;
     private boolean isLiving;
     private int age;
 
@@ -18,7 +18,7 @@ public class Author {
 
     public void setAuthorName(String authorName){
         if (authorName.contains(" ")) {
-            this.authorName = authorName; //contains space
+            this.authorName = authorName;
         }
     }
 
@@ -28,7 +28,7 @@ public class Author {
 
     public void setIsLiving(boolean isLiving){
         if (age <= 100) {
-            this.isLiving = isLiving; //age less than 100
+            this.isLiving = isLiving;
         }
     }
 

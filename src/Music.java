@@ -19,7 +19,7 @@ public class Music {
 
     public void setAlbumRating(double albumRating){
         if(albumRating > 0.0 && albumRating <10.1) {
-            this.albumRating = albumRating; //scale from 0.0 to 10.0
+            this.albumRating = albumRating;
         }
     }
 
@@ -29,7 +29,7 @@ public class Music {
 
     public void setTrackNum(int trackNum){
         if(trackNum > 0) {
-            this.trackNum = trackNum; //greater than 0
+            this.trackNum = trackNum;
         }
     }
 

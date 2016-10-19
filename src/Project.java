@@ -16,7 +16,7 @@ public class Project {
 
     public void setDueDate(String dueDate){
         if (dueDate.contains("/")) {
-            this.dueDate = dueDate; //contains slashes
+            this.dueDate = dueDate;
         }
     }
 
@@ -42,7 +42,7 @@ public class Project {
 
     public void setProjName(String projName){
         if(projName.contains("Project")) {
-            this.projName = projName; //contains "Project"
+            this.projName = projName;
         }
     }
 

@@ -19,7 +19,7 @@ public class Film {
 
     public void setLengthMins(float lengthMins){
         if (lengthMins > 0) {
-            this.lengthMins = lengthMins; //greater than 0
+            this.lengthMins = lengthMins;
         }
     }
 
@@ -29,7 +29,7 @@ public class Film {
 
     public void setDirector(String director){
         if (director.contains(" ")) {
-            this.director = director; //contain space
+            this.director = director;
         }
     }
 
